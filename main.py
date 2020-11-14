@@ -28,7 +28,8 @@ while True:
         for item in get_content(html.text):
             if len(name.split(' ')) > 1:
                     if item.text.lower() == name.lower():
-                        print("\n" + Fore.GREEN + item.text + ":\n")
+                        print("\n" + Fore.GREEN + item.parent.parent.parent.parent.parent.find_all('h2', class_='tableHeader')[0].text)
+                        print(Fore.GREEN + item.text + ":\n")
                         for i, n in enumerate(item.parent.parent.find_all('td', class_="priceRange")):
                             s = 0
                             for k in n['class']:
@@ -42,7 +43,8 @@ while True:
             else:
                 for ittem in item.text.split(' '):
                     if ittem.lower().startswith(name.lower()):
-                        print("\n" + Fore.GREEN + item.text + ":\n")
+                        print("\n" + Fore.GREEN + item.parent.parent.parent.parent.parent.find_all('h2', class_='tableHeader')[0].text)
+                        print(Fore.GREEN + item.text + ":\n")
                         for i, n in enumerate(item.parent.parent.find_all('td', class_="priceRange")):
                             s = 0
                             for k in n['class']:
