@@ -3,7 +3,7 @@ This is a program that will help you find the price of the item you need from th
 
 Important! Prices are for the PC platform
 
-![](https://i.imgur.com/VE8iKJ5.png "Optional title")
+![](https://i.imgur.com/VE8iKJ5.png "Example")
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install all requirements.
