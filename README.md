@@ -1,5 +1,5 @@
 ## Release
-To download release go to this github [link](https://github.com/ToGGiHo/rl.insider/releases) and click on last rl.insider.exe release file
+To download release go to this github [link](https://github.com/ToGGiHo/rl.insider/releases) and click on last [rl.insider.exe](https://github.com/ToGGiHo/rl.insider/releases/download/1.0.1/rl.inside.exe) release file
 
 ## About
 This is a program that will help you find the price of the item you need from the [rlinsider](https://rl.insider.gg) website
